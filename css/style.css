@@ -33,15 +33,29 @@ body{
     padding-right: 246px;
 }
 /*header-cart*/
-.header-cart-text{
+.cart-link{
+    color: black;
+    text-decoration: none;
+}
+.header-cart::before{
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/Decoration/Cart.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0px;
+    left: -10px;
+}
+.header-cart{
+    position: relative;
     font-size: 16px;
     font-weight: 500;
     color: black;
     padding-left: 24px;
-}
-.cart-link{
-    color: black;
-    text-decoration: none;
 }
 /*logo*/
 .Logo{
