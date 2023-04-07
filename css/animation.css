@@ -1,0 +1,112 @@
+/*logo*/
+.header-logo:hover{
+    opacity: 0.7;
+}
+.header-logo:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+
+/*nav*/
+.navigation-link>li>a:hover{
+    color: rgba(251, 86, 90, 1);
+}
+.navigation-link>li>a:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+/*cart*/
+.cart>a:hover{
+    color: rgba(251, 86, 90, 1);
+}
+.cart>a:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+/*btn clider*/
+.btn_slider:hover{
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+}
+.btn_slider:active{
+    background: #D7373B;
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+/*btn1_lure*/
+.lure-product1-button:hover{
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+}
+.lure-product1-button:active{
+    background: rgba(215, 55, 59, 1);
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+/*btn2_lure*/
+.lure-product2Button>button:hover{
+    background-color: rgba(0, 188, 108, 1);
+    cursor: pointer;
+}
+.lure-product2Button>button:active{
+    background: rgba(0, 170, 98, 1);
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+/*btn3_lure*/
+.lure-product3Button>button:hover{
+    background-color: rgba(234, 181, 52, 1);
+    cursor: pointer;
+}
+.lure-product3Button>button:active{
+    background: rgba(229, 167, 34, 1);
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+/*company*/
+.html-company:hover{
+    opacity: 1;
+}
+.html-company:active{
+    opacity: 0.1;
+}
+.borodinski-company:hover{
+    opacity: 1;
+}
+.borodinski-company:active{
+    opacity: 0.1;
+}
+.pink-company:hover{
+    opacity: 1;
+}
+.pink-company:active{
+    opacity: 0.1;
+}
+.mishka-company:hover{
+    opacity: 1;
+}
+.mishka-company:active{
+    opacity: 0.1;
+}
+/*footer icon*/
+.footer-VK:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+}
+.footer-Fb:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+
+}.footer-inst:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+
+}

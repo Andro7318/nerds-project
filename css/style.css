@@ -25,18 +25,6 @@ button{
     background-color: rgba(251, 86, 90, 1);
     border: solid 0px black;
 }
-button:hover{
-    background-color: rgba(231, 66, 70, 1);
-    cursor: pointer;
-}
-
-button:active {
-    background-color: rgba(215, 55, 59, 1);
-    box-shadow: none;
-    transition: background-color 0.2s; /* отключение transition для :active */
-    color: rgba(255, 255, 255, 0.3);
-}
-  
 /*header*/
 .header{
     height: 545px;
@@ -144,14 +132,16 @@ button:active {
 }
 /*product 2*/
 .lure-product2Button>button{
+    background-color: rgba(0, 202, 116, 1);
     padding: 17px 40px;
     margin-top: 127px;
 }
 /*product 3*/
-.product3Button>button{
+.lure-product3Button>button{
     padding: 17px 40px;
+    background-color:#EFC849;
 }
-.product3Button{
+.lure-product3Button{
     margin-top: 126px;
 }
 /*info*/
@@ -289,19 +279,35 @@ button:active {
     margin-top: 630px;
     display: flex;
     margin-left: 52px;
-    border-top: solid 2px rgba(238, 238, 238, 1);
-    border-bottom: solid 2px rgba(238, 238, 238, 1);
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
     padding-bottom: 40px;
     padding-top: 50px;
 }
+.html-company{
+    border-right: solid 2px rgba(0, 0, 0, 0.2);
+    padding-right: 48px;
+    height: 68px;
+    opacity: 0.2;
+}
 .borodinski-company{
-    margin-left: 105px;
+    margin-left: 57px;
+    border-right: solid 2px rgba(0, 0, 0, 0.2);
+    padding-right: 48px;
+    height: 68px;
+    opacity: 0.2;
 }
 .pink-company{
-    margin-left: 105px;
+    margin-left: 57px;
+    border-right: solid 2px rgba(0, 0, 0, 0.2);
+    padding-right: 48px;
+    height: 68px;
+    opacity: 0.2;
 }
 .mishka-company{
-    margin-left: 105px;
+    margin-left: 57px;
+    height: 68px;
+    opacity: 0.2;
 }
 /*footer*/
 /*maps*/
@@ -361,7 +367,7 @@ button:active {
     margin-top: 1395px;
 }
 /*footer img message*/
-.footer-Vk{
+.footer-VK{
     background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
     width: 81px;
     height: 81px;
