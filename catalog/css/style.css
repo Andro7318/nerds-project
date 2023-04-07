@@ -313,4 +313,13 @@ body{
     font-weight: bold;
     margin-top: 50px;
   }
-  /*filter-features*/
+/*btn_filter*/
+.btn-filter{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(238, 238, 238, 1);
+    border: none;
+    padding: 17px 89px;
+    margin-top: 45px;
+}
