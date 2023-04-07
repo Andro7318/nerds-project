@@ -110,3 +110,15 @@
     transition: background-color 0.2s;
 
 }
+/*map_button*/
+.maps-contact-button:hover{
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+}
+.maps-contact-button:active{
+    background: rgba(215, 55, 59, 1);
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}

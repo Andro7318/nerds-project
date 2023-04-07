@@ -61,7 +61,7 @@ button{
     position: absolute;
     width: 20px;
     height: 20px;
-    background-image: url('/img/Decoration/Cart.svg');
+    background-image: url('/main/img/Decoration/Cart.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
