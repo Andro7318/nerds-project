@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/catalog/css/style.css">
+    <title>Catalog</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <!--Logo-->
+                <a class="header-logo" href="#"><img class="Logo" src="img/Content/Logo.svg" alt="logo"></a>
+                <!--nav link-->
+                <ul class="navigation-link">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <!--header cart-->
+                <div class="cart">
+                    <a href="#"> Корзина</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h1 class="title">Магазин готовых шаблонов</h1>
+            <!--filter-->
+            <div class="navLeft">
+                <section class="filter">
+                    <!--filter_cost-->
+                    <div class="filter_cost">
+                        <!--filter_cost_title-->
+                        <h3 class="filter_cost_title">Стоимость:</h3>
+                        <!--filter_conrol-->
+                        <div class="cost_contorls">
+                            <div class="line_green"></div>
+                            <div class="line_grey"></div>
+                            <div class="elippse1"></div>
+                            <div class="elippse2"></div>
+                        </div>
+                        <!--input_contol-->
+                        <div class="input_control">
+                            <span class="cost_min">от</span>
+                            <input class="cost_min_input" type="text" value="0">
+                            <span class="cost_max">до</span>
+                            <input type="text" class="cost_max_input" value="15 000">
+                        </div>
+                    </div>
+                </section>
+                <!--filter items-->
+                <section class="filter-item">
+                    <h3 class="filter-title">Сетка:</h3>
+                    <ul class="filter-maket-list">
+                        <li class="filter-maket-item filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group"
+                                value="adaptiv" id="filter-adaptiv">
+                            <label for="filter-adaptiv">Адаптивная</label>
+                        </li>
+                        <li class="filter-maket-item filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group"
+                                value="fix" id="filter-fix" checked>
+                            <label for="filter-fix">Фиксированная</label>
+                        </li>
+                        <li class="filter-maket-item filter-option filter-radio">
+                            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group"
+                                value="elastic" id="filter-elastic" checked>
+                            <label for="filter-elastic">Резиновая</label>
+                        </li>
+                    </ul>
+                </section>
+                <!--filter-features-->
+                <h2 class="visually-hidden">Особенности</h2>
+                <section class="filter-features">
+                    <h3>Особенности</h3>
+                    <ul class="filter-maket-list">
+                        <li class="filter-maket-item  filter-option filter-checkbox">
+                            <input class="visually-hidden  filter-input-checkbox filter-input" type="checkbox" name="slider"
+                                id="filter-of-slider" checked>
+                            <label for="filter-of-slider">Слайдер</label>
+                        </li>
+                        <li class="filter-maket-item  filter-option filter-checkbox">
+                            <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox"
+                                name="advantage" id="filter-advantage">
+                            <label for="filter-advantage">Блок преимуществ</label>
+                        </li>
+                        <li class="filter-maket-item  filter-option filter-checkbox">
+                            <input class="visually-hidden  filter-input-checkbox filter-input" type="checkbox" name="news"
+                                id="filter-news" checked>
+                            <label for="filter-news">Новости</label>
+                        </li>
+                        <li class="filter-maket-item  filter-option filter-checkbox">
+                            <input class="visually-hidden  filter-input-checkbox filter-input" type="checkbox"
+                                name="gallery" id="filter-gallery">
+                            <label for="filter-gallery">Галерея</label>
+                        </li>
+                        <li class="filter-maket-item  filter-option filter-checkbox">
+                            <input class="visually-hidden  filter-input-checkbox filter-input" type="checkbox"
+                                name="shopping_cart" id="filter-shopping_cart" checked>
+                            <label for="filter-shopping_cart">Корзина</label>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
