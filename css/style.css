@@ -7,6 +7,36 @@ body{
     margin: 0px auto;
     padding: 0px 15px;
 }
+/*all sub*/
+.sub-title-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    color: rgba(40, 49, 54, 1);
+}
+/*all button*/
+button{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(251, 86, 90, 1);
+    border: solid 0px black;
+}
+button:hover{
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgba(215, 55, 59, 1);
+    box-shadow: none;
+    transition: background-color 0.2s; /* отключение transition для :active */
+    color: rgba(255, 255, 255, 0.3);
+}
+  
 /*header*/
 .header{
     height: 545px;
@@ -19,13 +49,13 @@ body{
     position: absolute;
     margin-top: 20px;
 }
-.nav-list-link{
+.navigation-link>li>a{
     text-decoration: none;
     color: black;
     font-size: 16;
     font-weight: 500;
 }
-.nav-list{
+.navigation-link{
     list-style: none;
     display: flex;
     column-gap: 45px;
@@ -33,11 +63,11 @@ body{
     padding-right: 246px;
 }
 /*header-cart*/
-.cart-link{
+.cart>a{
     color: black;
     text-decoration: none;
 }
-.header-cart::before{
+.cart::before{
     content: "";
     display: flex;
     position: absolute;
@@ -50,7 +80,7 @@ body{
     top: 0px;
     left: -10px;
 }
-.header-cart{
+.cart{
     position: relative;
     font-size: 16px;
     font-weight: 500;
@@ -69,7 +99,7 @@ body{
     margin-top: -431px;
 }
 /*slider Text*/
-.sliderTitle{
+.slider-title{
     color: rgba(0, 0, 0, 1);
     font-size: 55px;
     font-weight: 500;
@@ -77,25 +107,17 @@ body{
     position: absolute;
     margin-top: -362px;
 }
-.sliderSub{
-    font-size: 16px;
-    color: rgba(40, 49, 54, 1);
+.slider-sub{
     position: absolute;
     margin-top: -200px;
 }
 /*slider-button*/
-.slider-buttonLink{
-    position: absolute;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: rgba(251, 86, 90, 1);
+.btn_slider{
     padding: 17px 54px;
     margin-top: -125px;
 }
-/*product*/
-.product{
+/*lure*/
+.lure{
     display: flex;
     justify-content: center;
     column-gap: 100px;
@@ -103,69 +125,50 @@ body{
     padding-bottom: 96px;
     border-bottom: solid 2px rgba(238, 238, 238, 1);
 }
-/*product web text*/
-.productWeb{
-    position: relative;
-}
-.productTitle{
+/*product 1 text*/
+.product-title{
     font-size: 24px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
     line-height: 25px;
     position: absolute;
 }
-.productSub{
-    color: rgba(40, 49, 54, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+.product-sub{
     position: absolute; 
     margin-top: 61px;   
 }
-/*web button*/
-.productButton{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: rgba(251, 86, 90, 1);
+/*1 button*/
+.lure-product1-button{
+    padding: 17px 40px;
+    margin-top: 125px;
+}
+/*product 2*/
+.lure-product2Button>button{
+    padding: 17px 40px;
+    margin-top: 127px;
+}
+/*product 3*/
+.product3Button>button{
     padding: 17px 40px;
 }
-.productWebButton{
-    margin-top: 141px;
-}
-/*product app*/
-.productApp{
-    position: relative;
-}
-.productAppButton{
-    margin-top: 141px;
-}
-/*product present*/
-.productPresent{
-    position: relative;
-}
-.productPresentButton{
-    margin-top: 141px;
+.product3Button{
+    margin-top: 126px;
 }
 /*info*/
 /*infoText*/
-.infoTextTitle{
+.info-text-title{
     font-size:45px;
     font-weight: 500;
     color: black;
     position: absolute;
     margin-top: 53px;
 }
-.infoTextSub{
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(40, 49, 54, 1);
+.info-text-sub{
     position: absolute;
     margin-top: 195px;
 }
 /*info order*/
-.orderTitle{
+.order-title{
     position: absolute;
     font-weight: 800;
     font-size: 16px;
@@ -173,18 +176,18 @@ body{
     margin-top: 285px;
     text-transform: uppercase;
 }
-.orderSub{
+.order-sub{
     position: absolute;
     margin-top: 324px;
     margin-left: 35px;
 }
-.orderSub2{
+.order-sub2{
     margin-top: 374px;
 }
-.orderSub3{
+.order-sub3{
     margin-top: 424px;
 }
-.orderSub1::before{
+.order-sub1::before{
     content: "";
     position: absolute;
     width: 25px;
@@ -193,7 +196,7 @@ body{
     margin-left: -31px;
     margin-top: 7.5px;
 }
-.orderSub2::before{
+.order-sub2::before{
     content: "";
     position: absolute;
     width: 25px;
@@ -201,7 +204,7 @@ body{
     background-color: rgba(251, 86, 90, 1);
     margin-left: -31px;
     margin-top: 7.5px;
-}.orderSub3::before{
+}.order-sub3::before{
     content: "";
     position: absolute;
     width: 25px;
@@ -211,7 +214,7 @@ body{
     margin-top: 7.5px;
 }
 /*info img*/
-.infoImg{
+.info-img{
     position: absolute;
     display: flex;
     margin-left: 801px;
@@ -219,16 +222,16 @@ body{
 }
 /*percent*/
 
-.percentBlock{
+.percent-block{
     position: absolute;
     padding-top: 30px;
 }
-.percentSpan{
+.percent-span{
     font-size: 26px;
     position: absolute;
 }
 /*percent title*/
-.percentTitle{
+.percent-title{
     position: absolute;
     font-size: 16px;
     font-weight: bold;
@@ -237,49 +240,50 @@ body{
     margin-top: 270px;
 }
 /*percent block 1*/
-.percentBlock1{
+.percent-block1{
     position: absolute;
     margin-left: 786px;
     margin-top: 244px;
     display: flex;
 }
-.percentBlockNumber{
+.percent-block-number{
     position: absolute;
     font-weight: 700;
     font-size: 45px;
     color: rgba(0, 0, 0, 1);
 }
-.percentBlockSub{
+.percent-block-sub{
     position: absolute;
     color: rgba(40, 49, 54, 1);
 }
-.percentBlockNumber1{
+.percent-block-number1{
     margin-top: 77px;
 }
-.percentBlockSub1{
+.percent-block-sub1{
     margin-top: 140px;
     margin-left: 8px;
 }
 /*percent block2*/
-.percentBlock2{
+.percent-block2{
     margin-top: 274px;
     display: flex;
     position: absolute;
     margin-left: 921px;
 }
-.percentBlockSub2{
+.percent-block-sub2{
     margin-left: 10px;
     margin-top: 109px;
 }
 /*percent block 3*/
-.percentBlock3{
+.percent-block3{
     margin-top: 274px;
     margin-left: 1060px;
     position: absolute;
 }
-.percentBlockSub3{
+.percent-block-sub3{
     margin-top: 109px;
 }
+/*company*/
 .company{
     position: absolute;
     margin-top: 630px;
@@ -290,13 +294,13 @@ body{
     padding-bottom: 40px;
     padding-top: 50px;
 }
-.BorodinskiCompany{
+.borodinski-company{
     margin-left: 105px;
 }
-.PinkCompany{
+.pink-company{
     margin-left: 105px;
 }
-.MishkaCompany{
+.mishka-company{
     margin-left: 105px;
 }
 /*footer*/
@@ -306,13 +310,13 @@ body{
     position: absolute;
     margin-left: -100px;
 }
-.mapIcon{
+.map-icon{
     position: absolute;
     margin-top: 986px;
     margin-left: 662px;
 }
 /*mapsContact*/
-.mapsContact{
+.maps-contact{
     width: 319px;
     height: 308px;
     background-color: white;
@@ -320,83 +324,80 @@ body{
     position: absolute;
     margin-left: 140px;
 }
-.mapsContactTitle{
+.maps-contact-title{
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
     margin-left: 50px;
     margin-top: 30px;
 }
-.mapsContactAddres{
+.maps-contact-addres{
     color: rgba(102, 102, 102, 1);
     margin-left: 50px;
 }
-.mapsContactNumber{
+.maps-contact-number{
     color: rgba(102, 102, 102, 1);
     margin-left: 50px;
 }
-.mapsContactButton{
+.maps-contact-button{
     font-weight: 500;
-    color: white;
-    text-decoration: none;
-    background-color: rgba(251, 86, 90, 1);
     padding: 17px 45px;
     margin-left: 50px;
     position: absolute;
     margin-top: 30px;
 }
 /*footer title*/
-.footerTitle{
+.footer-title{
     position: absolute;
     font-size: 36px;
     font-weight: bold;
     margin-top: 1345px;
     margin-left: 540px;
 }
-.footerSub{
+.footer-sub{
     color: rgba(68, 68, 68, 1);
     position: absolute;
     margin-left: 540px;
     margin-top: 1395px;
 }
 /*footer img message*/
-.footerVk{
+.footer-Vk{
     background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
     width: 81px;
     height: 81px;
     border-radius: 100%;
 }
-.ImgVk{
+.img-Vk{
     display: flex;
     position: absolute;
     margin-left: 26px;
     margin-top: 33px;
 }
-.footerFb{
+.footer-Fb{
     background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
     width: 81px;
     height: 81px;
     border-radius: 100%;
 }
-.ImgFB{
+.img-FB{
     display: flex;
     position: absolute;
     margin-left: 33px;
     margin-top: 29px;
 }
-.footerInst{
+.footer-inst{
     background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
     width: 81px;
     height: 81px;
     border-radius: 100%;
 }
-.ImgInst{
+.img-inst{
     display: flex;
     position: absolute;
     margin-left: 30px;
     margin-top: 29px;
 }
-.footerImg{
+.footer-img{
     display: flex;
     position: absolute;
     margin-top: 1340px;

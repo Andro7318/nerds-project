@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,168 +11,156 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Nerds</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
                 <!--Logo-->
-                <div class="header-logo">
-                    <img class="Logo" src="img/Content/Logo.svg" alt="logo">
-                </div>
+                <a class="header-logo"><img class="Logo" src="img/Content/Logo.svg" alt="logo"></a>
                 <!--nav link-->
-                <div class="nav-link">
-                    <ul class="nav-list">
-                        <li><a class="nav-list-link" href="#">Студия</a></li>
-                        <li><a class="nav-list-link" href="#">Клиенты</a></li>
-                        <li><a class="nav-list-link" href="#">Магазин</a></li>
-                        <li><a class="nav-list-link" href="#">Контакты</a></li>
-                    </ul>
-                </div>
+                <ul class="navigation-link">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
                 <!--header cart-->
-                <div class="header-cart">
-                    <span><a class="cart-link" href="#"> Корзина</a></span>
+                <div class="cart">
+                    <a href="#"> Корзина</a>
                 </div>
-            <nav>
+            </nav>
         </div>
     </header>
     <main>
         <div class="container">
-            <div class="slider">
+            <section class="slider">
                 <div class="container">
                     <!--slider img-->
-                    <div class="slider-img">
-                        <img src="img/Content/Slider1.png" alt="background-slider">
-                    </div>
+                    <img class="slider-img" src="img/Content/Slider1.png" alt="background-slider">
                     <!--slider text-->
-                    <div class="sliderText">
-                        <h2 class="sliderTitle">Долго, дорого, скрупулезно.</h2>
-                        <span class="sliderSub">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</span>
-                    </div>
+                    <h2 class="slider-title">Долго, дорого, скрупулезно.</h2>
+                    <span class="slider-sub sub-title-text">Математически выверенный дизайн <br> для вашего сайта или мобильного
+                        приложения.</span>
                     <!--slider button-->
-                    <div class="slider-button">
-                        <a class="slider-buttonLink" href="#">УЗНАТЬ БОЛЬШЕ</a>
-                    </div>
+                    <button class="btn_slider" type="button">УЗНАТЬ БОЛЬШЕ</button>
                 </div>
-            </div>
-            <div class="product">
-                <!--product Web Site-->
-                <div class="productWeb">
-                    <!--product web img-->
-                    <div class="productWebImg">
-                        <img src="img/Content/WebSite.jpg" alt="WebIcon">
+            </section>
+            <div class="lure">
+                <!-- 1 Site-->
+                <div class="lure-product1">
+                    <!--product 1 img-->
+                    <img src="img/Content/WebSite.jpg" alt="WebIcon">
+                    <!--product 1 text-->
+                    <div class="lure-product1-text">
+                        <h3 class=" product-title">Веб-сайты</h3>
+                        <span class="product-sub sub-title-text">Мир никогда не будет прежним <br> после того как увидит ваш
+                            сайт!</span>
                     </div>
-                    <!--product web text-->
-                    <div class="productWebText">
-                        <h3 class="productWebTitle productTitle">Веб-сайты</h3>
-                        <span class="productWebSub productSub">Мир никогда не будет прежним <br> после того как увидит ваш сайт!</span>
-                    </div>
-                    <!--product web button-->
-                    <div class="productWebButton">
-                        <a class="WebButtonLink productButton" href="#">Заказать</a>
-                    </div>
+                    <!--product 1 button-->
+                        <button type="button" class="lure-product1-button">Заказать</button>
                 </div>
-                <!--product App-->
-                <div class="poductApp">
-                        <div class="productAppImg">
-                            <img src="img/Content/App.jpg" alt="AppIcon">
-                        </div>
-                        <!--product app text-->
-                        <div class="productAppText">
-                            <h3 class="productAppTitle productTitle">Приложения</h3>
-                            <span class="productAppSub productSub">Покорите топ-10 приложений <br> в AppStore и Google Play</span>
-                        </div>
-                        <!--product app button-->
-                        <div class="productAppButton">
-                            <a class="AppButtonLink productButton" href="#">Заказать</a>
-                        </div>
+                <!--product 2-->
+                <div class="lure-poduct2">
+                    <!--product 2 Img-->
+                    <img class="lure-product2Img" src="img/Content/App.jpg" alt="AppIcon">
+                    <!--product 2 text-->
+                    <div class="product2Text">
+                        <h3 class=" product-title">Приложения</h3>
+                        <span class="product-sub sub-title-text">Покорите топ-10 приложений <br> в AppStore и Google Play</span>
+                    </div>
+                    <!--product 2 button-->
+                    <div class="lure-product2Button">
+                        <button type="button">Заказать</button>
+                    </div>
                 </div>
                 <!--product Present-->
-                <div class="productPresent">
-
-
-                    <div class="productPresentImg">
-                        <img src="img/Content/Present.jpg" alt="AppIcon">
-                    </div>
+                <div class="lure-product3">
+                    <!--product3Img-->
+                    <img class="lure-product3Img" src="img/Content/Present.jpg" alt="AppIcon">
                     <!--product present text-->
-                    <div class="productPresentText">
-                        <h3 class="productPresentTitle productTitle">Презентации</h3>
-                        <span class="productPresentSub productSub">Вы даже не подозреваете, <br> насколько вы изумительны!</span>
+                    <div class="lure-product3Text">
+                        <h3 class="product-title">Презентации</h3>
+                        <span class="product-sub sub-title-text">Вы даже не подозреваете, <br> насколько вы изумительны!</span>
                     </div>
                     <!--product app button-->
-                    <div class="productPresentButton">
-                        <a class="AppButtonLink productButton" href="#">Заказать</a>
+                    <div class="product3Button">
+                        <button type="button">Заказать</button>
                     </div>
 
                 </div>
             </div>
             <div class="info">
-               <div class="infoText">
-                    <h2 class="infoTextTitle">Мы — маленькая, но гордая <br> дизайн-студия из Краснодара.</h2>
-                    <span class="infoTextSub">Исповедуем принципы минимализма и чистоты. Ставим математический расчет <br> превыше креатива. Работаем не покладая рук, как роботы.</span>
-               </div>
-               <div class="orderText">
-                    <h3 class="orderTitle">Выполняем заказы на разработку:</h3>
-                    <p class="orderSub1 orderSub">	Веб-сайтов любой сложности</p>
-                    <p class="orderSub2 orderSub">Мобильных приложений для iOS и Android</p>
-                    <p class="orderSub3 orderSub">Слайдшоу и видео для корпоративных презентаций</p>
-               </div>
-               <div class="infoImg">
-                    <img src="img/Decoration/InfoLogo.png" alt="infoImg">
-               </div>
-               <div class="percent">
+                <!--info Text-->
+                <div class="info-text">
+                    <h2 class="info-text-title">Мы — маленькая, но гордая <br> дизайн-студия из Краснодара.</h2>
+                    <span class="info-text-sub sub-title-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+                        <br> превыше креатива. Работаем не покладая рук, как роботы.</span>
+                </div>
+                <!--order-->
+                <div class="order-text">
+                    <h3 class="order-title">Выполняем заказы на разработку:</h3>
+                    <p class="order-sub1 order-sub sub-title-text"> Веб-сайтов любой сложности</p>
+                    <p class="order-sub2 order-sub sub-title-text">Мобильных приложений для iOS и Android</p>
+                    <p class="order-sub3 order-sub sub-title-text">Слайдшоу и видео для корпоративных презентаций</p>
+                </div>
+                <img class="info-img" src="img/Decoration/InfoLogo.png" alt="infoImg">
+                <div class="percent">
                     <!--percent title-->
-                    <div class="percentTitle">
-                        <h3 class="percentTitleP">с 2004 года Любим точность во всем: </h3>
+                    <div class="percent-title">
+                        <h3>с 2004 года Любим точность во всем: </h3>
                     </div>
                     <!--block 1-->
-                    <div class="percentBlock1 percentBlock">
-                        <p class="percentBlockNumber1 percentBlockNumber">146 <span class="percentSpan">%</span> </p>
-                        <p class="percentBlockSub1 percentBlockSub">Уровень <br> самоотдачи</p>
+                    <div class="percent-block1 percent-block">
+                        <p class="percent-block-number1 percent-block-number">146 <span class="percent-span">%</span> </p>
+                        <p class="percent-block-sub1 percent-block-sub sub-title-text">Уровень <br> самоотдачи</p>
                     </div>
                     <!--block 2-->
-                    <div class="percentBlock2 percentBlock">
-                        <p class="percentBlockNumber2 percentBlockNumber">100 <span class="percentSpan">%</span> </p>
-                        <p class="percentBlockSub2 percentBlockSub">Соблюдение<br>сроков</p>
+                    <div class="percent-block2 percent-block">
+                        <p class="percent-block-number2 percent-block-number">100 <span class="percent-span">%</span> </p>
+                        <p class="percent-block-sub2 percent-block-sub sub-title-text">Соблюдение<br>сроков</p>
                     </div>
                     <!--block 3-->
-                    <div class="percentBlock3 percentBlock">
-                        <p class="percentBlockNumber3 percentBlockNumber">50 <span class="percentSpan">%</span> </p>
-                        <p class="percentBlockSub3 percentBlockSub">Минимальная<br>предоплата</p>
+                    <div class="percent-block3 percent-block">
+                        <p class="percent-block-number3 percent-block-number">50 <span class="percent-span">%</span> </p>
+                        <p class="percent-block-sub3 percent-block-sub sub-title-text">Минимальная<br>предоплата</p>
                     </div>
                 </div>
-               <div class="company">
-                    <a href="#"><img class="HtmlCompany" src="img/Content/HtmlAcademy.svg" alt="htmlCompany"></a>
-                    <a href="#"><img class="BorodinskiCompany" src="img/Content/Borodinski.png" alt="borodinskiCompany"></a>
-                    <a href="#"><img class="PinkCompany" src="img/Content/Pink.png" alt="PinkCompany"></a>
-                    <a href="#"><img class="MishkaCompany" src="img/Content/Mishka.png" alt="MishkaCompany"></a>
-               </div>
+                <!--company-->
+                <div class="company">
+                    <a href="#"><img class="html-company" src="img/Content/HtmlAcademy.svg" alt="htmlCompany"></a>
+                    <a href="#"><img class="borodinski-company" src="img/Content/Borodinski.png"alt="borodinskiCompany"></a>
+                    <a href="#"><img class="pink-company" src="img/Content/Pink.png" alt="PinkCompany"></a>
+                    <a href="#"><img class="mishka-company" src="img/Content/Mishka.png" alt="MishkaCompany"></a>
+                </div>
             </div>
         </div>
     </main>
+    <!--footer-->
     <footer class="footer">
         <div class="container">
-            <div class="maps">
-                <img src="img/Content/map 1.png" width="100%" alt="maps">
+            <!--footerImgMaps-->
+            <img class="maps" src="img/Content/map 1.png" width="100%" alt="maps">
+            <!--footerImgMapsmarker-->
+            <img class="map-icon" src="img/Content/Map-marker.png" alt="mapMarker">
+            <!--MapsContact-->
+            <div class="maps-contact">
+                <h2 class="maps-contact-title">NЁRDS DESIGN STUDIO</h2>
+                <p class="maps-contact-addres">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+                <p class="maps-contact-number">тел. +7 (812) 275-75-75</p>
+                <button type="button" class="maps-contact-button">напишите нам</button>
             </div>
-            <div class="mapIcon">
-                <img src="img/Content/Map-marker.png" alt="mapMarker">
-            </div>
-            <div class="mapsContact">
-                <h2 class="mapsContactTitle">NЁRDS DESIGN STUDIO</h2>
-                <p class="mapsContactAddres">191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
-                <p class="mapsContactNumber">тел. +7 (812) 275-75-75</p>
-                <a class="mapsContactButton" href="#">напишите нам</a>
-            </div>
-            <div class="footerText">
-                <p class="footerTitle">Давайте дружить, это выгодго</p>
-                <p class="footerSub">Скидка 10% для друзей из социальных сетей.</p>
-            </div>
-            <div class="footerImg">
-                <div class="footerVk"><a href="#"><img class="ImgVk" src="img/Decoration/Vk.svg" alt="vkIcon"></a></div>
-                <div class="footerFb"><a href="#"><img class="ImgFB" src="img/Decoration/FbIcons.svg" alt="fbIcon"></a></div>
-                <div class="footerInst"><a href="#"><img class="ImgInst" src="img/Decoration/InstaIcons.svg" alt="InstaIcon"></a></div>
+            <!--footerText-->
+            <h2 class="footer-title">Давайте дружить, это выгодго</h2>
+            <p class="footer-sub">Скидка 10% для друзей из социальных сетей.</p>
+            <!--footerImgIcons-->
+            <div class="footer-img">
+                <div class="footer-Vk"><a href="#"><img class="img-Vk" src="img/Decoration/Vk.svg" alt="vkIcon"></a></div>
+                <div class="footer-Fb"><a href="#"><img class="img-FB" src="img/Decoration/FbIcons.svg" alt="fbIcon"></a></div>
+                <div class="footer-inst"><a href="#"><img class="img-inst" src="img/Decoration/InstaIcons.svg"alt="InstaIcon"></a></div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
