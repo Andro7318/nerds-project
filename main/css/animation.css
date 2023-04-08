@@ -104,11 +104,10 @@
 .footer-Fb:hover{
     background: rgba(231, 66, 70, 1);
     transition: background-color 0.2s;
-
-}.footer-inst:hover{
+}
+.footer-inst:hover{
     background: rgba(231, 66, 70, 1);
     transition: background-color 0.2s;
-
 }
 /*map_button*/
 .maps-contact-button:hover{

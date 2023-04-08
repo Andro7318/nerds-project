@@ -1,0 +1,134 @@
+/*logo*/
+.header-logo:hover{
+    opacity: 0.7;
+}
+.header-logo:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+
+/*nav*/
+.navigation-link>li>a:hover{
+    color: rgba(251, 86, 90, 1);
+}
+.navigation-link>li>a:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+/*cart*/
+.cart>a:hover{
+    color: rgba(251, 86, 90, 1);
+}
+.cart>a:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+.navigation-link_shop{
+    border-bottom: solid 2px rgba(251, 86, 90, 1);
+    padding-bottom: 13px;
+}
+/*sorting*/
+.sorting-price:hover{
+    opacity: 60%;
+}
+.sorting-price:active{
+    opacity: 30%;
+}
+.sorting-type:hover{
+    opacity: 60%;
+}
+.sorting-type:active{
+    opacity: 100%;
+}
+.sorting-name>a:hover{
+    opacity: 60%;
+}
+.sorting-name>a:active{
+    opacity: 100%;
+}
+.sort-down:hover{
+    opacity: 0.5;
+    transition: background-color 0.2s;
+}
+/*footer*/
+.btn-product-footer2:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(223, 223, 223, 1);
+    cursor: pointer;
+}
+.btn-product-footer2:active{
+    transition: background-color 0.2s;
+    background: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.btn-product-footer3:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(223, 223, 223, 1);
+    cursor: pointer;
+}
+.btn-product-footer3:active{
+    transition: background-color 0.2s;
+    background: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn-product-footer4:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(223, 223, 223, 1);
+    cursor: pointer;
+}
+.btn-product-footer4:active{
+    transition: background-color 0.2s;
+    background: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.maps-contact-button:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(231, 66, 70, 1);
+    cursor: pointer;
+}
+.maps-contact-button:active{
+    transition: background-color 0.2s;
+    background: #D7373B;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer-VK:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.footer-VK:active{
+    background: rgba(215, 55, 59, 1);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+.img-Vk:active{
+    opacity: 0.3;
+}
+.footer-Fb:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.img-FB:active{
+    opacity: 0.3;
+}
+.footer-inst:hover{
+    background: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.img-inst:active{
+    opacity: 0.3;
+}
