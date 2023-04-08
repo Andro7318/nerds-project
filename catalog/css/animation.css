@@ -132,3 +132,42 @@
 .img-inst:active{
     opacity: 0.3;
 }
+.maket-animation:hover{
+    opacity: 1;
+    transition:1s;
+}
+.btn-filter:hover{
+    cursor: pointer;
+    background-color: rgba(223, 223, 223, 1);
+    transition: background-color 0.2s;
+}
+.btn-filter:active{
+    cursor: pointer;
+    background: #D5D5D5;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+.animation-block-title>a{
+    text-decoration: none;
+    color: black;
+}
+.animation-block-title>a:hover{
+    color: rgba(251, 86, 90, 1);
+    transition: background-color 0.2s;
+}
+.animation-block-title>a:active{
+    opacity: 0.3;
+    transition: background-color 0.2s;
+}
+.btn-animation-block:hover{
+    cursor: pointer;
+    background-color: rgba(231, 66, 70, 1);
+    transition: background-color 0.2s;
+}
+.btn-animation-block:active{
+    background: #D7373B;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
