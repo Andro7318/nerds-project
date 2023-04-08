@@ -468,13 +468,13 @@ body{
 /*footer*/
 /*maps*/
 .maps{
-    margin-top: 900px;
+    margin-top: 300px;
     position: absolute;
     margin-left: -100px;
 }
 .map-icon{
     position: absolute;
-    margin-top: 986px;
+    margin-top: 386px;
     margin-left: 662px;
 }
 /*mapsContact*/
@@ -482,7 +482,7 @@ body{
     width: 319px;
     height: 308px;
     background-color: white;
-    margin-top: 954px;
+    margin-top: 354px;
     position: absolute;
     margin-left: 140px;
 }
@@ -513,14 +513,14 @@ body{
     position: absolute;
     font-size: 36px;
     font-weight: bold;
-    margin-top: 1345px;
+    margin-top: 745px;
     margin-left: 540px;
 }
 .footer-sub{
     color: rgba(68, 68, 68, 1);
     position: absolute;
     margin-left: 540px;
-    margin-top: 1395px;
+    margin-top: 795px;
 }
 /*footer img message*/
 .footer-VK{
@@ -562,7 +562,7 @@ body{
 .footer-img{
     display: flex;
     position: absolute;
-    margin-top: 1340px;
+    margin-top: 740px;
     column-gap: 9px;
     margin-left: 40px;
     padding-bottom: 40px;
@@ -616,4 +616,103 @@ body{
     position: absolute;
     margin-top: -622px;
     height: 600px;
+}
+/*pop up*/
+.pop-up{
+    width: 960px;
+    height: 590px;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    display: none;
+    margin:auto;
+}
+.pop-up-main{
+    position: relative;
+}
+.cross{
+    margin-top: 70px;
+    margin-left: 845px;
+    opacity: 0.3;
+}
+.pop-up-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0px;
+    position: absolute;
+    top: 43px;
+    left: 100px;
+}
+.name-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 135px;
+    left: 100px;
+}
+.name-input{
+    color: rgba(68, 68, 68, 0.5);
+    width: 360px;
+    height: 50px;
+    border: solid 2px rgba(215, 220, 222, 1);
+    font-size: 17px;
+    position: absolute;
+    left: 100px;
+    top: 168px;
+    padding-left: 5px;
+}
+.email-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 135px;
+    right: 290px;
+}
+.email-input{
+    font-size: 17px;
+    position: absolute;
+    border: solid 2px rgba(215, 220, 222, 1);
+    color: rgba(68, 68, 68, 0.5);
+    width: 360px;
+    height: 50px;
+    top: 168px;
+    right: 0px;
+    padding-left: 5px;
+}
+.letter-input-sub{
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    top: 263px;
+    right: 660px;
+}
+.letter-input{
+    font-size: 17px;
+    position: absolute;
+    border: solid 2px rgba(215, 220, 222, 1);
+    color: rgba(68, 68, 68, 0.5);
+    width: 774px;
+    left: 100px;
+    top: 291px;
+    padding-bottom: 118px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.btn-pop-up{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(251, 86, 90, 1);
+    text-transform: uppercase;
+    padding: 17px 80px;
+    border: none;
+    position: absolute;
+    left: 100px;
+    top: 480px;
+}
+.footer{
+    margin-top: 2040px;
 }

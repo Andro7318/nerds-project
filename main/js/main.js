@@ -1,22 +1,27 @@
-const mapLink = document.querySelector(".contacts-button-map");
-const mapPopup = document.querySelector(".modal-map");
-const mapClose = mapPopup.querySelector(".modal-close");
+const buttonElem = document.querySelector('.maps-contact-button');
+const modalElem = document.querySelector('.pop-up');
 
-mapLink.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  mapPopup.classList.add("modal-show");
-});
+modalElem.style.cssText = `
+display: flex;
+visibility: hidden;
+opacity: 0;
+transition: opacity 300ms ease-in-out;
+`;
 
-mapClose.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  mapPopup.classList.remove("modal-show");
-});
+const closeModal = event =>{
+const target = event.target;
 
-window.addEventListener("keydown", function (evt) {
-  if (evt.keyCode === 27) {
-    if (mapPopup.classList.contains("modal-show")) {
-      evt.preventDefault();
-      mapPopup.classList.remove("modal-show");
-    }
-  }
-});
+if (target === modalElem || target.closest('.cross')){
+    modalElem.style.opacity = 0;
+    setTimeout(() => {
+        modalElem.style.visibility = "hidden";
+    }, 300);
+}
+}
+
+const openModal = () => {
+    modalElem.style.visibility = "visible";
+    modalElem.style.opacity = 1;
+}
+buttonElem.addEventListener('click', openModal);
+modalElem.addEventListener('click', closeModal);

@@ -121,3 +121,23 @@
     border-radius: 3px;
     transition: background-color 0.2s;
 }
+.cross:hover{
+    opacity: 1;
+    transition: background-color 0.2s;
+}
+.cross:active{
+    opacity: 0.1;
+    transition: background-color 0.2s;
+}
+.btn-pop-up:hover{
+    transition: background-color 0.2s;
+    cursor: pointer;
+    background: #E74246;
+    border-radius: 3px;
+}
+.btn-pop-up:active{
+    transition: background-color 0.2s;
+    background: #D7373B;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    border-radius: 3px;
+}
